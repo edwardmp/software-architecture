@@ -6,7 +6,6 @@ apply plugin: 'application'
 
 mainClassName = 'main.Run'
 
-sourceCompatibility = 1.5
 
 jar {
     manifest {
