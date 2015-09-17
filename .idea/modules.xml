@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Project/QC-Robot/libs/logPipe/Pipe.iml" filepath="$PROJECT_DIR$/Project/QC-Robot/libs/logPipe/Pipe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Project.iml" filepath="$PROJECT_DIR$/Project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Project/QC-Robot/QC-Robot.iml" filepath="$PROJECT_DIR$/Project/QC-Robot/QC-Robot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Project/QC-Robot/libs/inputHandler/inputHandler.iml" filepath="$PROJECT_DIR$/Project/QC-Robot/libs/inputHandler/inputHandler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Project/QC-Robot/libs/logPipe/logPipe.iml" filepath="$PROJECT_DIR$/Project/QC-Robot/libs/logPipe/logPipe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/software-architecture.iml" filepath="$PROJECT_DIR$/software-architecture.iml" />
+    </modules>
+  </component>
+</project>

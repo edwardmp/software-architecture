@@ -8,13 +8,13 @@ build/
 *.iml
 
 ## Directory-based project format:
-.idea/
+#.idea/
 # if you remove the above rule, at least ignore the following:
 
 # User-specific stuff:
-# .idea/workspace.xml
-# .idea/tasks.xml
-# .idea/dictionaries
+ .idea/workspace.xml
+ .idea/tasks.xml
+ .idea/dictionaries
 
 # Sensitive or high-churn files:
  .idea/dataSources.ids
@@ -26,7 +26,7 @@ build/
 # Gradle:
  .idea/gradle.xml
  .idea/libraries
-.gradle
+ .gradle
 
 # Mongo Explorer plugin:
  .idea/mongoSettings.xml
