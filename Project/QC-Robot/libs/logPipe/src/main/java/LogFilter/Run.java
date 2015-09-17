@@ -13,7 +13,7 @@ public class Run {
         Thread logLevelFilter = new LogLevelFilter(pipeFirst, pipeSecond, "Error");
 
         // reads log lines from second pipe and writes result to file
-        Thread logModuleFilter = new LogModuleFilter(pipeSecond, "ControlCenter");
+        Thread logModuleFilter = new LogModuleFilter(pipeSecond, "InputHandler");
 
         // start the reader and the filters
         logFileReader.start();
