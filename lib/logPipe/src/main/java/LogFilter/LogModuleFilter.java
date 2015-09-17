@@ -9,7 +9,6 @@ import java.util.List;
 public class LogModuleFilter extends Thread {
     private Pipe pipe = null;
     private String moduleToFilter = null;
-    private List<String> logLineList = new ArrayList<String>();
 
     public LogModuleFilter(Pipe _pipe, String _moduleToFilter) {
         if (_pipe == null)

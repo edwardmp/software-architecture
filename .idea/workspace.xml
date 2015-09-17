@@ -2,91 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3233b186-4d05-448d-8789-1a60d725c3d5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/cache.properties.lock" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/outputFileStates.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/taskArtifacts.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/QC-Robot/Run.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/cache.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/settings.gradle" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project/QC-Robot/.gradle/2.2/taskArtifacts/cache.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project/QC-Robot/.gradle/2.2/taskArtifacts/cache.properties.lock" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project/QC-Robot/.gradle/2.2/taskArtifacts/fileSnapshots.bin" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project/QC-Robot/.gradle/2.2/taskArtifacts/taskArtifacts.bin" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project/QC-Robot/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project/QC-Robot/.idea/compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project/QC-Robot/.idea/copyright/profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project/QC-Robot/.idea/gradle.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project/QC-Robot/.idea/libraries/Gradle__junit_junit_4_11.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project/QC-Robot/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project/QC-Robot/.idea/libraries/inputHandler.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project/QC-Robot/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project/QC-Robot/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project/QC-Robot/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project/QC-Robot/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project/QC-Robot/settings.gradle" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project/QC-Robot/src/main/java/main/Run.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Project/QC-Robot/.gradle/2.2/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/fileHashes.bin" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Project/QC-Robot/.gradle/2.2/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/fileSnapshots.bin" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Project/QC-Robot/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Project/QC-Robot/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Project/QC-Robot/gradlew" afterPath="$PROJECT_DIR$/lib/logPipe/gradlew" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Project/QC-Robot/gradlew.bat" afterPath="$PROJECT_DIR$/lib/logPipe/gradlew.bat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Project/QC-Robot/libs/inputHandler/.gradle/2.2/taskArtifacts/cache.properties" afterPath="$PROJECT_DIR$/lib/inputHandler/.gradle/2.2/taskArtifacts/cache.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Project/QC-Robot/libs/inputHandler/.gradle/2.2/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/lib/inputHandler/.gradle/2.2/taskArtifacts/cache.properties.lock" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Project/QC-Robot/libs/inputHandler/.gradle/2.2/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/lib/inputHandler/.gradle/2.2/taskArtifacts/fileHashes.bin" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Project/QC-Robot/libs/inputHandler/.gradle/2.2/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/lib/inputHandler/.gradle/2.2/taskArtifacts/fileSnapshots.bin" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Project/QC-Robot/libs/inputHandler/.gradle/2.2/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/lib/inputHandler/.gradle/2.2/taskArtifacts/outputFileStates.bin" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Project/QC-Robot/libs/inputHandler/.gradle/2.2/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/lib/inputHandler/.gradle/2.2/taskArtifacts/taskArtifacts.bin" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Project/QC-Robot/libs/inputHandler/.idea/.name" afterPath="$PROJECT_DIR$/lib/inputHandler/.idea/.name" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Project/QC-Robot/libs/inputHandler/.idea/compiler.xml" afterPath="$PROJECT_DIR$/lib/inputHandler/.idea/compiler.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Project/QC-Robot/libs/inputHandler/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/lib/inputHandler/.idea/copyright/profiles_settings.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Project/QC-Robot/libs/inputHandler/.idea/gradle.xml" afterPath="$PROJECT_DIR$/lib/inputHandler/.idea/gradle.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Project/QC-Robot/libs/inputHandler/.idea/libraries/Gradle__junit_junit_4_11.xml" afterPath="$PROJECT_DIR$/lib/inputHandler/.idea/libraries/Gradle__junit_junit_4_11.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Project/QC-Robot/libs/inputHandler/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" afterPath="$PROJECT_DIR$/lib/inputHandler/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Project/QC-Robot/libs/inputHandler/.idea/misc.xml" afterPath="$PROJECT_DIR$/lib/inputHandler/.idea/misc.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Project/QC-Robot/libs/inputHandler/.idea/modules.xml" afterPath="$PROJECT_DIR$/lib/inputHandler/.idea/modules.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Project/QC-Robot/libs/inputHandler/.idea/vcs.xml" afterPath="$PROJECT_DIR$/lib/inputHandler/.idea/vcs.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Project/QC-Robot/libs/inputHandler/.idea/workspace.xml" afterPath="$PROJECT_DIR$/lib/inputHandler/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Project/QC-Robot/libs/inputHandler/build.gradle" afterPath="$PROJECT_DIR$/lib/inputHandler/build.gradle" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Project/QC-Robot/libs/inputHandler/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/lib/inputHandler/gradle/wrapper/gradle-wrapper.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Project/QC-Robot/libs/inputHandler/gradlew" afterPath="$PROJECT_DIR$/lib/inputHandler/gradlew" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Project/QC-Robot/libs/inputHandler/gradlew.bat" afterPath="$PROJECT_DIR$/lib/inputHandler/gradlew.bat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Project/QC-Robot/libs/inputHandler/settings.gradle" afterPath="$PROJECT_DIR$/lib/inputHandler/settings.gradle" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Project/QC-Robot/libs/inputHandler/src/main/java/input/HelloWorld.java" afterPath="$PROJECT_DIR$/lib/inputHandler/src/main/java/input/HelloWorld.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Project/QC-Robot/libs/logPipe/.gradle/2.2/taskArtifacts/cache.properties" afterPath="$PROJECT_DIR$/lib/logPipe/.gradle/2.2/taskArtifacts/cache.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Project/QC-Robot/libs/logPipe/.gradle/2.2/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/lib/logPipe/.gradle/2.2/taskArtifacts/cache.properties.lock" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Project/QC-Robot/libs/logPipe/.gradle/2.2/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/lib/logPipe/.gradle/2.2/taskArtifacts/fileHashes.bin" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Project/QC-Robot/libs/logPipe/.gradle/2.2/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/lib/logPipe/.gradle/2.2/taskArtifacts/fileSnapshots.bin" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Project/QC-Robot/libs/logPipe/.gradle/2.2/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/lib/logPipe/.gradle/2.2/taskArtifacts/outputFileStates.bin" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Project/QC-Robot/libs/logPipe/.gradle/2.2/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/lib/logPipe/.gradle/2.2/taskArtifacts/taskArtifacts.bin" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Project/QC-Robot/libs/logPipe/.gradle/2.4/taskArtifacts/cache.properties" afterPath="$PROJECT_DIR$/lib/logPipe/.gradle/2.4/taskArtifacts/cache.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Project/QC-Robot/libs/logPipe/.gradle/2.4/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/lib/logPipe/.gradle/2.4/taskArtifacts/cache.properties.lock" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Project/QC-Robot/libs/logPipe/.gradle/2.4/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/lib/logPipe/.gradle/2.4/taskArtifacts/fileHashes.bin" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Project/QC-Robot/libs/logPipe/.gradle/2.4/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/lib/logPipe/.gradle/2.4/taskArtifacts/fileSnapshots.bin" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Project/QC-Robot/libs/logPipe/.gradle/2.4/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/lib/logPipe/.gradle/2.4/taskArtifacts/outputFileStates.bin" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Project/QC-Robot/libs/logPipe/.gradle/2.4/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/lib/logPipe/.gradle/2.4/taskArtifacts/taskArtifacts.bin" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Project/QC-Robot/libs/logPipe/build.gradle" afterPath="$PROJECT_DIR$/lib/logPipe/build.gradle" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Project/QC-Robot/libs/logPipe/filteredLogs.txt" afterPath="$PROJECT_DIR$/lib/logPipe/filteredLogs.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Project/QC-Robot/libs/logPipe/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/lib/logPipe/gradle/wrapper/gradle-wrapper.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Project/QC-Robot/libs/logPipe/gradlew" afterPath="$PROJECT_DIR$/gradlew" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Project/QC-Robot/libs/logPipe/gradlew.bat" afterPath="$PROJECT_DIR$/gradlew.bat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Project/QC-Robot/libs/logPipe/inputLogs.txt" afterPath="$PROJECT_DIR$/lib/logPipe/inputLogs.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Project/QC-Robot/libs/logPipe/settings.gradle" afterPath="$PROJECT_DIR$/lib/logPipe/settings.gradle" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Project/QC-Robot/libs/logPipe/src/main/java/LogFilter/LogFileReader.java" afterPath="$PROJECT_DIR$/lib/logPipe/src/main/java/LogFilter/LogFileReader.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Project/QC-Robot/libs/logPipe/src/main/java/LogFilter/LogLevelFilter.java" afterPath="$PROJECT_DIR$/lib/logPipe/src/main/java/LogFilter/LogLevelFilter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Project/QC-Robot/libs/logPipe/src/main/java/LogFilter/LogModuleFilter.java" afterPath="$PROJECT_DIR$/lib/logPipe/src/main/java/LogFilter/LogModuleFilter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Project/QC-Robot/libs/logPipe/src/main/java/LogFilter/Pipe.java" afterPath="$PROJECT_DIR$/lib/logPipe/src/main/java/LogFilter/Pipe.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Project/QC-Robot/libs/logPipe/src/main/java/LogFilter/PipeImpl.java" afterPath="$PROJECT_DIR$/lib/logPipe/src/main/java/LogFilter/PipeImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Project/QC-Robot/libs/logPipe/src/main/java/LogFilter/Run.java" afterPath="$PROJECT_DIR$/lib/logPipe/src/main/java/LogFilter/Run.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/outputFileStates.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/cache.properties.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/logPipe/src/main/java/LogFilter/LogFileReader.java" afterPath="$PROJECT_DIR$/lib/logPipe/src/main/java/LogFilter/LogFileReader.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/logPipe/src/main/java/LogFilter/LogLevelFilter.java" afterPath="$PROJECT_DIR$/lib/logPipe/src/main/java/LogFilter/LogLevelFilter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/logPipe/src/main/java/LogFilter/LogModuleFilter.java" afterPath="$PROJECT_DIR$/lib/logPipe/src/main/java/LogFilter/LogModuleFilter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="software-architecture.iws" />
@@ -183,10 +105,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Run.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Run.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/QC-Robot/Run.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.26946107">
+            <state vertical-scroll-proportion="0.0">
               <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding>
                 <element signature="e#131#132#0" expanded="true" />
@@ -196,12 +118,44 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/logPipe/build.gradle">
+      <file leaf-file-name="Run.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/logPipe/src/main/java/LogFilter/Run.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+              <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LogLevelFilter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/logPipe/src/main/java/LogFilter/LogLevelFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.8888888">
+              <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LogModuleFilter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/logPipe/src/main/java/LogFilter/LogModuleFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.3333333">
+              <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LogFileReader.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/logPipe/src/main/java/LogFilter/LogFileReader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.33544305">
+              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -211,16 +165,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-0.3409091">
               <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gradlew" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/logPipe/gradlew">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="28" column="7" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -236,31 +180,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Pipe.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/logPipe/src/main/java/LogFilter/Pipe.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="software-architecture.iml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/software-architecture.iml">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PipeImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/logPipe/src/main/java/LogFilter/PipeImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -1408,6 +1332,10 @@
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/QC-Robot/Run.java" />
         <option value="$PROJECT_DIR$/settings.gradle" />
+        <option value="$PROJECT_DIR$/lib/logPipe/src/main/java/LogFilter/Run.java" />
+        <option value="$PROJECT_DIR$/lib/logPipe/src/main/java/LogFilter/LogLevelFilter.java" />
+        <option value="$PROJECT_DIR$/lib/logPipe/src/main/java/LogFilter/LogModuleFilter.java" />
+        <option value="$PROJECT_DIR$/lib/logPipe/src/main/java/LogFilter/LogFileReader.java" />
       </list>
     </option>
   </component>
@@ -1491,6 +1419,10 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -1499,6 +1431,68 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="software-architecture" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="software-architecture" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="software-architecture" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="logPipe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="software-architecture" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="software-architecture" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="logPipe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="software-architecture" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="software-architecture" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="logPipe" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -1517,6 +1511,14 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="software-architecture" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="logPipe" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -1532,7 +1534,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="QC-Robot" />
+              <option name="myItemId" value="LogFilter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="software-architecture" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="software-architecture" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1912,7 +1928,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31741935" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31741935" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26180556" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -2017,7 +2033,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2096,7 +2114,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="13" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2206,24 +2226,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/logPipe/src/main/java/LogFilter/LogLevelFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="62" selection-start-line="19" selection-start-column="62" selection-end-line="19" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/logPipe/src/main/java/LogFilter/LogModuleFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/logPipe/gradle/wrapper/gradle-wrapper.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2273,22 +2275,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/logPipe/src/main/java/LogFilter/LogFileReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/logPipe/src/main/java/LogFilter/Run.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -2367,11 +2353,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/QC-Robot/Run.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26946107">
+        <state vertical-scroll-proportion="0.0">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
             <element signature="e#131#132#0" expanded="true" />
             <element signature="e#171#172#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/logPipe/src/main/java/LogFilter/Run.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/logPipe/src/main/java/LogFilter/LogLevelFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.8888888">
+          <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/logPipe/src/main/java/LogFilter/LogModuleFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.3333333">
+          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/logPipe/src/main/java/LogFilter/LogFileReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33544305">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2434,7 +2454,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>inputHandler</last-edited>
+          <last-edited>logPipe</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

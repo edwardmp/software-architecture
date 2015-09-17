@@ -25,11 +25,11 @@ public class LogFileReader extends Thread {
             }
 
             BufferedReader br = new BufferedReader(new FileReader("inputLogs.txt"));
-            String word = null;
-            while((word = br.readLine()) != null)
-                pipe.put(word);
+            String logLine = null;
+            while((logLine = br.readLine()) != null)
+                pipe.put(logLine);
 
-            pipe.put(null); //null signals no more input
+            pipe.put(null); // null signals no more input
             br.close();
         } catch (IOException ioex) {
             ioex.printStackTrace();

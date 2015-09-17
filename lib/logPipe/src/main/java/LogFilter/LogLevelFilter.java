@@ -7,7 +7,6 @@ public class LogLevelFilter extends Thread {
     private Pipe pipeFirst = null;
     private Pipe pipeSecond = null;
     private String levelToFilter = null;
-    private List<String> wordList = new ArrayList<String>();
 
     public LogLevelFilter(Pipe _pipeFirst, Pipe _pipeSecond, String _levelToFilter) {
         if (_pipeFirst == null)
