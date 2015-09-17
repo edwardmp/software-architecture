@@ -4,9 +4,15 @@ version '1.0-SNAPSHOT'
 apply plugin: 'java'
 apply plugin: 'application'
 
-mainClassName = 'main.run'
+mainClassName = mainClassName
 
 sourceCompatibility = 1.5
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'Main'
+    }
+}
 
 repositories {
     mavenCentral()
