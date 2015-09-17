@@ -1,0 +1,10 @@
+rootProject.name = 'QC-Robot'
+
+def projectTreeRootDir = new File( "." )
+def sharedRootDir = new File( projectTreeRootDir, 'lib')
+
+include ':inputHandler'
+project( ':inputHandler' ).projectDir = new File( sharedRootDir, 'inputHandler' )
+
+include ':logPipe'
+project( ':logPipe' ).projectDir = new File( sharedRootDir, 'logPipe' )

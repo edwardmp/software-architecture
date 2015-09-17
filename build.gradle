@@ -4,12 +4,11 @@ version '1.0-SNAPSHOT'
 apply plugin: 'java'
 apply plugin: 'application'
 
-mainClassName = 'main.Run'
-
+mainClassName = 'QCRobot.Run'
 
 jar {
     manifest {
-        attributes 'Main-Class': 'main.Run'
+        attributes 'Main-Class': 'QCRobot.Run'
     }
 }
 
@@ -19,5 +18,6 @@ repositories {
 
 dependencies {
     compile project(':inputHandler')
+    compile project(':logPipe')
     testCompile group: 'junit', name: 'junit', version: '4.11'
 }
