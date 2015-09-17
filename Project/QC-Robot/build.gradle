@@ -4,13 +4,13 @@ version '1.0-SNAPSHOT'
 apply plugin: 'java'
 apply plugin: 'application'
 
-mainClassName = mainClassName
+mainClassName = 'main.Run'
 
 sourceCompatibility = 1.5
 
 jar {
     manifest {
-        attributes 'Main-Class': 'Main'
+        attributes 'Main-Class': 'main.Run'
     }
 }
 
