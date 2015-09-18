@@ -10,6 +10,7 @@ jar {
     manifest {
         attributes 'Main-Class': 'QCRobot.Run'
     }
+    from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
 }
 
 repositories {

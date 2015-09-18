@@ -1,6 +1,6 @@
 package LogFilter;
 
 interface Pipe {
-    public boolean put(Object obj);
-    public Object get() throws InterruptedException;
+    boolean put(Object obj);
+    Object get() throws InterruptedException;
 }

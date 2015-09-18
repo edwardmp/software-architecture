@@ -1,4 +1,4 @@
-rootProject.name = 'QC-Robot'
+rootProject.name = 'QCRobot'
 
 def projectTreeRootDir = new File( "." )
 def sharedRootDir = new File( projectTreeRootDir, 'lib')

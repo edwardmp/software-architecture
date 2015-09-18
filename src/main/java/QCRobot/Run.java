@@ -1,9 +1,9 @@
 package QCRobot;
 
-import LogFilter.LogFileReader; // example import
+import input.HelloWorld;
 
 public class Run {
     public static void main(String[] args) {
-        input.HelloWorld.Print();
+        HelloWorld.Print();
     }
 }
