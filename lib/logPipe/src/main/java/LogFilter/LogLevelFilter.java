@@ -1,8 +1,5 @@
 package LogFilter;
 
-import java.io.*;
-import java.util.*;
-
 public class LogLevelFilter extends Thread {
     private Pipe pipeFirst = null;
     private Pipe pipeSecond = null;
