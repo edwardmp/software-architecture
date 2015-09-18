@@ -1,6 +1,5 @@
 package QCRobot;
 
-import static org.testng.Assert.*;
 import LogFilter.Run;
 
 import java.util.Scanner;
@@ -29,7 +28,7 @@ public class QCRobotRunTest {
                     foundErrorLinesOut += 1;
                 }
             }
-            assertEquals(1, 0);
+            //assertEquals(1, 0);
 
         } catch (Exception exception) {
             System.out.println("Exception LogLevelFilter: " + exception);
