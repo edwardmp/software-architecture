@@ -22,7 +22,7 @@ public class LogModuleFilter extends Thread {
     }
 
     public void run() {
-        String logLine = null;
+        String logLine;
 
         try {
             File file = new File(".", "filteredLogs.txt");

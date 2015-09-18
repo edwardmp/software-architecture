@@ -24,13 +24,13 @@ public class LogLevelFilter extends Thread {
     }
 
     public void run() {
-        String word = null;
+        String logLine;
 
         try {
             // go through all lines and look for lines containing level equal to the levelToFilter
-            while ((word = (String) pipeFirst.get()) != null)
-                if (word.contains("[" + levelToFilter + "]"))
-                    pipeSecond.put(word);
+            while ((logLine = (String) pipeFirst.get()) != null)
+                if (logLine.contains("[" + levelToFilter + "]"))
+                    pipeSecond.put(logLine);
 
             pipeSecond.put(null);
 
