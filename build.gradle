@@ -20,5 +20,5 @@ repositories {
 dependencies {
     compile project(':inputHandler')
     compile project(':logPipe')
-    testCompile group: 'junit', name: 'junit', version: '4.11'
+    testCompile 'org.testng:testng:6.9.4'
 }

@@ -1,12 +1,13 @@
 build/
 
+# remove files created by tests
 filteredLogsOutput.txt
 filteredLogsOutputAfterRepeatRun.txt
 
 ### Intellij ###
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm
 
-*.iml
+#*.iml
 
 # User-specific stuff:
 .idea/workspace.xml
