@@ -3,14 +3,15 @@ package LogFilter;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
 
-public class LogModuleFilter extends Thread {
+public class LogModuleFilter {
     private Pipe pipe = null;
     private String moduleToFilter = null;
 
-    public LogModuleFilter(Pipe _pipe, String _moduleToFilter) {
+    private String filePath;
+    private String outputFileName;
+
+    public LogModuleFilter(Pipe _pipe, String _moduleToFilter, String _filePath, String _outputFileName) {
         if (_pipe == null)
             throw new RuntimeException("No pipe passed");
 
@@ -19,20 +20,22 @@ public class LogModuleFilter extends Thread {
 
         pipe = _pipe;
         moduleToFilter = _moduleToFilter;
+
+        filePath = _filePath;
+        outputFileName = _outputFileName;
     }
 
     public void run() {
         String logLine;
 
         try {
-            File file = new File(".", "filteredLogs.txt");
+            File file = new File(filePath, outputFileName);
 
-            if (!file.isFile() && !file.createNewFile())
-            {
+            if (!file.isFile() && !file.createNewFile()) {
                 throw new IOException("Error creating new file: " + file.getAbsolutePath());
             }
 
-            FileWriter fw = new FileWriter("filteredLogs.txt");
+            FileWriter fw = new FileWriter(file);
 
             while ((logLine = (String) pipe.get()) != null)
                 if (logLine.contains("[" + moduleToFilter + "]"))

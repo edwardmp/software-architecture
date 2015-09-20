@@ -1,6 +1,6 @@
 package LogFilter;
 
-public class LogLevelFilter extends Thread {
+public class LogLevelFilter {
     private Pipe pipeFirst = null;
     private Pipe pipeSecond = null;
     private String levelToFilter = null;
