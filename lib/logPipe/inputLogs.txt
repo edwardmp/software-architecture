@@ -1,5 +1,0 @@
-[Info][InputHandler] Log line example 1
-[Error][InputHandler] Log line example 2
-[Info][InputHandler] Log line example 3
-[Warning][VideoHandler] Log line example 4
-[Error][ControlCenter] Log line example 5

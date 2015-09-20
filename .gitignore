@@ -1,6 +1,7 @@
 build/
 
 filteredLogsOutput.txt
+filteredLogsOutputAfterRepeatRun.txt
 
 ### Intellij ###
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm

@@ -12,7 +12,7 @@ import org.testng.Assert;
  */
 public class LogFilterRunTest {
     @Test
-    public void testRun() throws Exception {
+    public void testOutputIsEqualToExpectedOutputInFixture() throws Exception {
         try {
             String[] args = {"src/test/resources/fixtures", "inputLogs.txt", "filteredLogsOutput.txt", "Error", "InputHandler"};
 
@@ -25,7 +25,31 @@ public class LogFilterRunTest {
             // the output file should equal the output fixture file
             Assert.assertTrue(FileUtils.contentEquals(fileOutput, fileOutputSample));
         } catch (Exception exception) {
-            System.out.println("Exception LogFilterRunTest: " + exception);
+            System.out.println("Exception testOutputIsEqualToExpectedOutputInFixture: " + exception);
+            exception.printStackTrace();
+        }
+    }
+
+    @Test
+    public void testOutputStaysSameAfterRepeatRun() throws Exception {
+        try {
+            String[] args = {"src/test/resources/fixtures", "inputLogs.txt", "filteredLogsOutput.txt", "Error", "InputHandler"};
+
+            // run LogFilter with args
+            Run.main(args);
+
+            // now use output as input, should stay the same after repeat run
+            args[1] = "filteredLogsOutput.txt";
+            args[2] = "filteredLogsOutputAfterRepeatRun.txt";
+            Run.main(args);
+
+            File fileOutput = new File(args[0], args[1]);
+            File fileOutputAfterRepeatRun = new File(args[0], args[2]);
+
+            // the output file should equal the output fixture file
+            Assert.assertTrue(FileUtils.contentEquals(fileOutput, fileOutputAfterRepeatRun));
+        } catch (Exception exception) {
+            System.out.println("Exception testOutputStaysSameAfterRepeatRun: " + exception);
             exception.printStackTrace();
         }
     }
