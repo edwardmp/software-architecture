@@ -2,8 +2,10 @@ package LogFilterTests;
 
 import LogFilter.Run;
 
-import java.io.File;
-import org.apache.commons.io.FileUtils;
+import java.nio.charset.Charset;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.util.List;
 import org.testng.annotations.Test;
 import org.testng.Assert;
 
@@ -19,11 +21,12 @@ public class LogFilterRunTest {
             // run LogFilter with args
             Run.main(args);
 
-            File fileOutput = new File(args[0], args[2]);
-            File fileOutputSample = new File(args[0], "sampleFilteredLogsOutput.txt");
+            // this strips new line characters, because comparison across different systems failed (due to CR+LF and CR differences)
+            List<String> linesFilteredLogsOutput = Files.readAllLines(Paths.get(args[0], args[2]), Charset.forName("UTF-8"));
+            List<String> linesFilteredLogsOutputFixture = Files.readAllLines(Paths.get(args[0], "sampleFilteredLogsOutput.txt"), Charset.forName("UTF-8"));
 
-            // the output file should equal the output fixture file
-            Assert.assertTrue(FileUtils.contentEquals(fileOutput, fileOutputSample));
+            // the output lines should equal the lines generated from output fixture file
+            Assert.assertEquals(linesFilteredLogsOutput, linesFilteredLogsOutputFixture);
         } catch (Exception exception) {
             System.out.println("Exception testOutputIsEqualToExpectedOutputInFixture: " + exception);
             exception.printStackTrace();
@@ -43,11 +46,12 @@ public class LogFilterRunTest {
             args[2] = "filteredLogsOutputAfterRepeatRun.txt";
             Run.main(args);
 
-            File fileOutput = new File(args[0], args[1]);
-            File fileOutputAfterRepeatRun = new File(args[0], args[2]);
+            // this strips new line characters, because comparison across different systems failed (due to CR+LF and CR differences)
+            List<String> linesFilteredLogsOutput = Files.readAllLines(Paths.get(args[0], args[1]), Charset.forName("UTF-8"));
+            List<String> linesFilteredLogsOutputAfterRepeatRun = Files.readAllLines(Paths.get(args[0], args[2]), Charset.forName("UTF-8"));
 
-            // the output file should equal the output fixture file
-            Assert.assertTrue(FileUtils.contentEquals(fileOutput, fileOutputAfterRepeatRun));
+            // the lists with lines should be equal
+            Assert.assertEquals(linesFilteredLogsOutput, linesFilteredLogsOutputAfterRepeatRun);
         } catch (Exception exception) {
             System.out.println("Exception testOutputStaysSameAfterRepeatRun: " + exception);
             exception.printStackTrace();
