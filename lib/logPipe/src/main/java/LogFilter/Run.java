@@ -2,9 +2,9 @@ package LogFilter;
 
 public class Run {
     public static void main(String args[]) {
-        String filePath = (args != null && args.length != 0 && !args[0].isEmpty() ? args[0] : "");
-        String inputFileName = (args != null && args.length != 0 && !args[1].isEmpty() ? args[1] : "");
-        String outputFileName = (args != null && args.length != 0 && !args[2].isEmpty() ? args[2] : "");
+        String filePath = (args != null && args.length != 0 && !args[0].isEmpty() ? args[0] : ".");
+        String inputFileName = (args != null && args.length != 0 && !args[1].isEmpty() ? args[1] : "input.txt");
+        String outputFileName = (args != null && args.length != 0 && !args[2].isEmpty() ? args[2] : "output.txt");
         String logLevelToFilter = (args != null && args.length != 0 && !args[3].isEmpty() ? args[3] : "Error");
         String logModuleToFilter = (args != null && args.length != 0 && !args[4].isEmpty() ? args[4] : "InputHandler");
 
