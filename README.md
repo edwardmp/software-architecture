@@ -1,7 +1,16 @@
 # Software Architecture 2015-2016
+## Lab: Quality Care Robot
+
+* Edward Poot - 10296514 - edwardmp@gmail.com
+* Sander Bos - 10772936 - sanderbos89@gmail.com
+* Roy de Wildt - 11030534 - roydewildt@gmail.com
+* Wouter Stikkelorum - 11111720 - w.g.stikkelorum@gmail.com
+
 
 ## Build instructions
 The IDE we use is IntelliJ IDEA community edition, but the ordinary edition also should work fine.
+
+Run `git clone https://github.com/edwardmp/software-architecture.git` to clone the repo.
 
 We use `gradle` as a build automation tool so `gradle` should be installed on the system.
 
@@ -12,6 +21,11 @@ To build:
 To run:
 
 * `gradle run`
+
+To run tests:
+
+* `gradle test`
+
 
 ### Architecture patterns used
 #### Component based
@@ -39,12 +53,4 @@ Pipes and filters to the rescue. Assume that logging is done to a text file. We 
 Now we want to filter the data. We can simply create another filter and pipe input to it instead of logging to a file. We then search for certain keywords, such as the module involved or the logging level. Only those logs are kept. Then we write the result to a file. The result is that only logs of interest are kept.
 
 The pipes and filter pattern makes adding additonal functionality easy and filters could even by enabled or disabled at run time based on certain conditions (e.g. dynamically changing the lowest logging level that defines which log data is kept and which not).
-
-## Lab: Quality Care Robot
-
-* Edward Poot - 10296514 - edwardmp@gmail.com
-* Sander Bos - 10772936 - sanderbos89@gmail.com
-* Roy de Wildt - 11030534 - roydewildt@gmail.com
-* Wouter Stikkelorum - 11111720 - w.g.stikkelorum@gmail.com
-
 
