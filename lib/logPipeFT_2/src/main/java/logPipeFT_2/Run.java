@@ -12,7 +12,7 @@ import java.util.ArrayList;
 public class Run
 {
     public static void main( String[] args ) {
-        System.out.println( "Starting pipe filter pattern example" );
+        System.out.println( "Starting pipe filter pattern example that filters logs by level and module name" );
 
         Run qc = new Run();
         qc.startPipeFilterExample();
