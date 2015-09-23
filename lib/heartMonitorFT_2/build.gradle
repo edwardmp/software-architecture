@@ -1,0 +1,23 @@
+group 'heartMonitorFT_2'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'application'
+
+sourceCompatibility = 1.5
+mainClassName = "HeartMonitor.Run"
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'logPipeFT_2.Run'
+    }
+    from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile files('lib/FT_2/qc-robot-1.0-SNAPSHOT.jar')
+}
