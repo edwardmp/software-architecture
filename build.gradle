@@ -20,5 +20,6 @@ repositories {
 dependencies {
     compile project(':inputHandler')
     compile project(':logPipe')
+    compile files('lib/FT_2/qc-robot-1.0-SNAPSHOT.jar')
     testCompile 'org.testng:testng:6.9.4'
 }
