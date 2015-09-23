@@ -4,11 +4,11 @@ version '1.0-SNAPSHOT'
 apply plugin: 'java'
 apply plugin: 'application'
 
-mainClassName = 'logPipeFT_4.Run'
+mainClassName = 'logPipeFT_2.Run'
 
 jar {
     manifest {
-        attributes 'Main-Class': 'logPipeFT_4.Run'
+        attributes 'Main-Class': 'logPipeFT_2.Run'
     }
     from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
 }

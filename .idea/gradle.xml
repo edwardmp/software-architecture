@@ -15,6 +15,17 @@
         </option>
         <option name="useAutoImport" value="true" />
       </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/lib/logPipeFT_2" />
+        <option name="gradleHome" value="/opt/boxen/homebrew/Cellar/gradle/2.4/libexec" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/lib/logPipeFT_2" />
+          </set>
+        </option>
+        <option name="useAutoImport" value="true" />
+      </GradleProjectSettings>
     </option>
   </component>
 </project>
