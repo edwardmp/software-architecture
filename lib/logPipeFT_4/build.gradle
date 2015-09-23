@@ -1,14 +1,14 @@
-group 'qualityCare'
+group 'logPipeFT_4'
 version '1.0-SNAPSHOT'
 
 apply plugin: 'java'
 apply plugin: 'application'
 
-mainClassName = 'QCRobot.Run'
+mainClassName = 'logPipeFT_4.Run'
 
 jar {
     manifest {
-        attributes 'Main-Class': 'QCRobot.Run'
+        attributes 'Main-Class': 'logPipeFT_4.Run'
     }
     from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
 }
@@ -18,7 +18,5 @@ repositories {
 }
 
 dependencies {
-    compile project(':inputHandler')
-    compile project(':logPipe')
-    testCompile 'org.testng:testng:6.9.4'
+    compile files('lib/FT_2/qc-robot-1.0-SNAPSHOT.jar')
 }
