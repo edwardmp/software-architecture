@@ -7,7 +7,6 @@
       <module fileurl="file://$PROJECT_DIR$/lib/inputHandler/inputHandler.iml" filepath="$PROJECT_DIR$/lib/inputHandler/inputHandler.iml" />
       <module fileurl="file://$PROJECT_DIR$/lib/logPipe/logPipe.iml" filepath="$PROJECT_DIR$/lib/logPipe/logPipe.iml" />
       <module fileurl="file://$PROJECT_DIR$/lib/logPipeFT_2/logPipeFT_2.iml" filepath="$PROJECT_DIR$/lib/logPipeFT_2/logPipeFT_2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lib/logPipeFT_2/logPipeFT_4.iml" filepath="$PROJECT_DIR$/lib/logPipeFT_2/logPipeFT_4.iml" />
     </modules>
   </component>
 </project>
